@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Memory Bank 작업 지침 및 규칙
+type: Manual
+---
+
+# Memory Bank 작업 지침
+본 프로젝트는 'Memory Bank' 시스템을 통해 개발 컨텍스트를 관리합니다.
+
+## 중요: Memory Bank 업데이트 원칙
+1. Memory Bank 파일은 절대 자동으로 업데이트하지 마세요.
+2. 오직 "memory bank 업데이트 해줘"라는 명령이 있을 때만 Memory Bank 파일을 업데이트하세요.
+3. 명령어 없이는 Memory Bank 내용을 절대 변경하지 마세요.
+4. 업데이트 후에는 변경사항을 요약하여 보고하세요.
+5. techContext.md 파일과 projectbrief.md 파일은 업데이트 하지 않습니다. 단, 해당 원칙과 다른 방향으로 개발해야 할 경우에는 사용자에게 물어보고 해당 파일을 업데이트 해주세요.
+
+## Memory Bank 파일별 역할
+1. projectbrief.md: 변경 빈도가 가장 낮음, 전체 프로젝트 방향성 정의
+2. productContext.md: 사용자 요구사항과 비즈니스 관점에서의 기능 정의
+3. systemPatterns.md: 아키텍처 결정사항과 설계 패턴 기록
+4. techContext.md: 개발 환경, 라이브러리, API 명세 등 기술적 컨텍스트
+5. activeContext.md: 현재 개발 중인 기능과 작업 상태
+6. progress.md: 완료된 작업, 진행 중인 작업, 이슈 추적
+
+@memory-bank/activeContext.md
+
+@memory-bank/progress.md

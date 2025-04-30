@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: 아름유아 숲 체험원 예약 시스템 프로젝트 개요
+type: Always
+---
+
+# 아름유아 숲 체험원 예약 웹사이트 개발 - 프로젝트 개요
+
+## 프로젝트 개요
+- 아름유아 숲 체험원 예약 시스템 구축
+- 데스크톱/모바일 모두 지원하는 반응형 웹 구현
+- 관리자 모드 통합 (예약 관리, 날짜 마감/오픈, 예약 내역 수정)
+- 주요 섹션: [예약], [체험원 소개]
+
+## 기술 스택
+- 프론트엔드: React + Next.js + TypeScript + Tailwind CSS
+- 백엔드: Supabase (PostgreSQL, 인증, Storage, Edge Functions)
+- 배포: 프론트엔드는 Vercel, 백엔드/DB는 Supabase
+
